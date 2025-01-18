@@ -161,4 +161,7 @@
   <ItemGroup>
     <ClInclude Include="..\app\money.h" />
   </ItemGroup>
-  <Import Project="$(VCTargetsPath
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
